@@ -51,7 +51,7 @@ def response(user_response):
 #Most important code. Checks for keywords in user's text and sees takes a response and sends from chatbot.txt
 
 flag=True
-print("ROBO: My name is Robo. I will answer your questions about Chatbots, artifical intelligence, and maybe a bit more. If you want to exit, type Bye!")
+print("BOT: My name is Chatbot BOT. I will answer your questions about Chatbots, artifical intelligence, and maybe a bit more. If you want to exit, type Bye!")
 while(flag==True):
     user_response = input()
     user_response=user_response.lower()
@@ -68,7 +68,7 @@ while(flag==True):
                 sent_tokens.remove(user_response)
     else:
         flag=False
-        print("ROBO: Bye! take care..")
+        print("BOT: Bye! take care..")
 
 #starting and ending conversation lines
 
